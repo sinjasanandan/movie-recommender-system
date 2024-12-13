@@ -41,8 +41,8 @@ movies.columns = ['MovieID', 'Title', 'Genres']
 
 
 #get S_top30 matrix
-
-S_matrix = pd.read_csv('similarity_matrix.csv', index_col=0)
+sim_mtx_url = 'https://www.dropbox.com/scl/fi/pu6enu2l6e41cum2healh/similarity_matrix.csv?rlkey=xrllq2vzueh1souasoq7oyhcp&st=nj3cdv83&dl=1'
+S_matrix = pd.read_csv(sim_mtx_url, index_col=0)
 
 
 
