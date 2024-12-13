@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-from model import myIBCF, S_top30, top_movies_with_titles, movies, ratings_matrix
+from model import myIBCF, S_top30, movies
 
 
 img_base_url = "https://liangfgithub.github.io/MovieImages/"
